@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>得一米，您的域名专家</title>
+		<title>得一米，您的域名搜索专家</title>
 		<%= stylesheet_link_tag    "application", :media => "all" %>
 		<%= javascript_include_tag "application" %>
 		<%= csrf_meta_tags %>
 	</head>
 	<body>
-
-		<%= yield %>
-
+		<div class="container">
+			<div class="row">
+				<div class="span2"><img src="<%= asset_path("logo.png") %>" alt="得一米">
+				</div>
+				<div class="span10"></div>
+			</div>
+		</div>
+		<div id="menu" class="navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li class="active">
+								<a href="/index.html">首页</a>
+							</li>
+							<li>
+								<a href="#">搜索</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<%= yield %>
+		</div>
+		<div class="container">
+			<hr />
+			<div class="footer">
+				© deyimi.com 2013
+			</div>
+		</div>
 	</body>
 </html>

@@ -1,3 +1,18 @@
 /*
  *= require twitter/bootstrap
  */
+body {
+	padding-top: 10px;
+}
+
+#menu {
+	margin: 10px 0;
+}
+#menu .container {
+	width: 940px;
+}
+#menu .navbar-inner {
+	border-left: 0;
+	border-right: 0;
+	border-radius: 0;
+}
