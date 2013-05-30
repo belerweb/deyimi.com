@@ -16,3 +16,36 @@ body {
 	border-right: 0;
 	border-radius: 0;
 }
+
+.section {
+	margin-bottom: 10px;
+}
+.section .title, .section .content {
+	border: 1px solid gray;
+	padding: 5px 10px;
+}
+.section .title {
+	background: #EEEEEE;
+	border-radius: 5px 5px 0 0;
+}
+.section .content {
+	border-radius: 0 0 5px 5px;
+	border-top: none;
+	padding: 10px 10px 0;
+}
+.section .content .row-fluid{
+	margin-bottom: 10px;
+}
+
+dl.domian {
+	margin: 0;
+	background: #EEEEEE;
+	border-radius: 5px;
+	padding: 5px 0;
+}
+dl.domian dt {
+	margin-bottom: 5px;
+}
+dl.domian dd {
+	margin: 0;
+}

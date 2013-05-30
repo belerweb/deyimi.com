@@ -1,2 +1,59 @@
-<h1>Index#index</h1>
-<p>Find me in app/views/index/index.html.erb</p>
+<div class="row">
+	<div class="span9">
+		<div class="section">
+			<div class="title">
+				推荐域名
+			</div>
+			<div class="content">
+				<% for i in 0..1 do %>
+				<div class="row-fluid">
+					<% for i in 0..3 do %>
+					<div class="span3">
+						<dl class="domian text-center">
+							<dt>
+								<span>deyimi.com</span>
+							</dt>
+							<dt>
+								<span>价格：</span><span>¥500.00</span>
+							</dt>
+							<dd>
+								<span class="label label-success">得一米</span>
+								<span class="label label-info">得意迷</span>
+							</dd>
+						</dl>
+					</div>
+					<% end %>
+				</div>
+				<% end %>
+			</div>
+		</div>
+		<div class="section">
+			<div class="title">
+				平价好域名
+			</div>
+			<div class="content">
+				<% for i in 0..1 do %>
+				<div class="row-fluid">
+					<% for i in 0..3 do %>
+					<div class="span3">
+						<dl class="domian text-center">
+							<dt>
+								<span>deyimi.com</span>
+							</dt>
+							<dt>
+								<span>价格：</span><span>¥500.00</span>
+							</dt>
+							<dd>
+								<span class="label label-success">得一米</span>
+								<span class="label label-info">得意迷</span>
+							</dd>
+						</dl>
+					</div>
+					<% end %>
+				</div>
+				<% end %>
+			</div>
+		</div>
+	</div>
+	<div class="span3"></div>
+</div>

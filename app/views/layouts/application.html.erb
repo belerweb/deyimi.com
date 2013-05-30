@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>得一米，您的域名搜索专家</title>
-		<%= stylesheet_link_tag    "application", :media => "all" %>
+		<title>得一米：您的域名搜索专家</title>
+		<%= stylesheet_link_tag "application", :media => "all" %>
 		<%= javascript_include_tag "application" %>
 		<%= csrf_meta_tags %>
 	</head>
@@ -23,7 +23,13 @@
 								<a href="/index.html">首页</a>
 							</li>
 							<li>
-								<a href="#">搜索</a>
+								<a href="#">淘域名</a>
+							</li>
+							<li>
+								<a href="#">删除域名</a>
+							</li>
+							<li>
+								<a href="#">Whois</a>
 							</li>
 						</ul>
 					</div>
@@ -34,9 +40,15 @@
 			<%= yield %>
 		</div>
 		<div class="container">
-			<hr />
+			<hr style="margin: 5px 0px;" />
 			<div class="footer">
 				© deyimi.com 2013
+			</div>
+			<div class="baidu">
+				<script type="text/javascript">
+					var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+					document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F15a6c5a9a46d47a25c5054c8a7f90767' type='text/javascript'%3E%3C/script%3E"));
+				</script>
 			</div>
 		</div>
 	</body>
